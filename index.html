@@ -71,89 +71,425 @@
     </header>
     <main>
         <!--Swiper-->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active c-item" data-bs-interval="3000">
-                    <img src="assets/image/1.jpeg" class=" d-block w-100 c-img " alt="...">
-                    <div class="carousel-caption  ">
-                        <div class="row">
-                            <div class="col-md-12 ">
-                                <h5>WELCOME TO</h5>
-                                <h1 class="display-1">Esel Boat Trip</h1>
-                                <a href="about.html" class="button menu center ttt">Learn More</a>
+        <section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <div class="content container">
+                            <h2 class="hss1">Welcome Aboard Esel Boat Trip</h2>
+                            <p class="hss2">Experience unforgettable moments on the crystal-clear waters of Saranda</p>
+                            <div class="text-center">
+                                <a style="text-decoration: none;" href="contact.html">
+                                    <button id="button" class="btn-3" style="letter-spacing: 2px;">CONTACT</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <div class="content container">
+                            <h2 class="hss1">Relax and Enjoy the Journey</h2>
+                            <p class="hss2">Indulge in the beauty of nature while cruising through Saranda's scenic
+                                coastline</p>
+                            <div class="text-center">
+                                <a style="text-decoration: none;" href="gallery.html">
+                                    <button id="button" class="btn-3" style="letter-spacing: 2px;">GALLERY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide3">
+                        <div class="content container">
+                            <h2 class="hss1">Discover Hidden Gems</h2>
+                            <p class="hss2">Explore secluded beaches and secret coves with our expert guides</p>
+                            <div class="text-center">
+                                <a style="text-decoration: none;" href="about.html">
+                                    <button id="button" class="btn-3" style="letter-spacing: 2px;">Learn More</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item  c-item" data-bs-interval="3000">
-                    <img src="assets/image/2.jpeg" class=" d-block w-100 c-img " alt="...">
-                    <div class="carousel-caption  ">
-                        <div class="row">
-                            <div class="col-md-12 ">
-                                <h5>WELCOME TO</h5>
-                                <h1 class="display-1">Esel Boat Trip</h1>
-                                <a href="trips.html" class="button menu center ttt">Explore Our Guides</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item  c-item" data-bs-interval="3000">
-                    <img src="assets/image/7.jpeg" class=" d-block w-100 c-img " alt="...">
-                    <div class="carousel-caption  ">
-                        <div class="row">
-                            <div class="col-md-12 ">
-                                <h5>WELCOME TO</h5>
-                                <h1 class="display-1">Esel Boat Trip</h1>
-                                <a href="contact.html" class="button menu center ttt">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-        </div>
+        </section>
         <!--End Swiper-->
         <!-- About -->
-        <section>
+        <section class="about_area">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row gy-3">
                     <div class="col-lg-6">
-                        <h2 class="heading font-smoothing">Esel Boat Trip</h2>
-                        <p class="text">
-                            Esel Boat Trip, nestled in the heart of Ksamil, Albania, offers an unforgettable
-                            dining experience with exclusive seafood dishes and a serene coastal ambiance. Enjoy the
-                            finest Mediterranean flavors in a welcoming atmosphere. Our menu features a variety of fresh
-                            seafood, skillfully prepared to delight your taste buds.
-                        </p>
-                        <p class="text">
-                            Whether you're looking for a
-                            romantic dinner, a family outing, or a special celebration, Esel Boat Trip is the
-                            perfect destination for an exquisite dining experience.
-                        </p>
-                        <div class="d-flex align-items-center justify-content-center mt-50">
-                            <a href="about.html" class="button menu center">Learn More</a>
+                        <div class="about-three__thumb wow fadeInLeft animated">
+                            <div class="about-three__thumb__one">
+                                <img src="assets/image/6.jpeg" alt="boat">
+                            </div>
+                            <div class="about-three__thumb__two villoz-tilt">
+                                <img src="assets/image/0.jpeg" alt="boat">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div id="owl-about" class="owl-carousel">
-                            <div class="item"><img src="assets/image/salads.png" alt=""></div>
-                            <div class="item"><img src="assets/image/steaks.png" alt=""></div>
-                            <div class="item"><img src="assets/image/desserts.png" alt=""></div>
-                            <div class="item"><img src="assets/image/fish.jpg" alt=""></div>
-                            <div class="item"><img src="assets/image/octpus.png" alt=""></div>
-                        </div>
+                    <div class="col-lg-6" id="tagline">
+                        <h6 class="tagline">ABOUT ESE BOAT TRIP
+                        </h6>
+                        <h2 class="display-6">A Few About Us</h2>
+                        <p>Explore the beauty of the seas with Esel Boat Trip. Cruise along coastlines, discover hidden
+                            coves, and embrace the tranquility of the open water.
+                            <br><br>
+                            With safety as our priority, our knowledgeable pilots ensure smooth sailing for every trip.
+                            Whether you seek adventure with tubing or relaxation with sunset cruises, we cater to all
+                            preferences.
+                            <br><br>
+                            Trips typically last 1 hour, with 3.5 hours at the destination for exploration and
+                            relaxation. For an extra thrill, try our tubing experiences.
+                            <br><br>
+                            Ready to set sail? Book your adventure with Esel Boat Trip today!
+                        </p>
+                        <a style="text-decoration: none;" href="about.html">
+                            <div class="button-container">
+                                <button class="btn">Learn More</button>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End About -->
+        <!--3 Location-->
+        <section style="padding-top: 0px;">
+            <div class="block-text text-center container">
+                <h3 class="title">CHOOSE LOCATION!</h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img100">
+                            <img src="assets/image/shpella.jpg" class="img100" alt="">
+                            <div class="text-overlay">
+                                <h4>Shpella E Pellumbave</h4>
+                                <a href="trips.html" class="learn-more">Learn More »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img100">
+                            <img src="assets/image/threeksamil.jpg" class="img100" alt="">
+                            <div class="text-overlay">
+                                <h4>Three Islands Ksamil</h4>
+                                <a href="trips.html" class="learn-more">Learn More »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img100">
+                            <img src="assets/image/tango.jpg" class="img100" alt="">
+                            <div class="text-overlay">
+                                <h4>Tango Island</h4>
+                                <a href="trips.html" class="learn-more">Learn More »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Location-->
+        <!--Popular-->
+        <section style="padding-top: 0px;">
+            <div class="container">
+                <div class="block-text text-center container">
+                    <h3 class="title" style="margin-bottom: 50px;">POPULAR LOCATION!</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="bb">
+                            <div class="image-container">
+                                <img src="assets/image/roidha.jpg" alt="">
+                                <div class="icon-container">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="icon-text">1&nbsp;Hour</span>
+                                    <i class="fas fa-clock"></i>
+                                    <span class="icon-text">3.5&nbsp;Hours</span>
+                                    <i class="fas fa-user"></i>
+                                    <span class="icon-text">Group&nbsp;Varies</span>
+                                </div>
+                                <div class="price-overlay">
+                                    <span class="price-label">Price</span>
+                                    <span class="price">30€/&nbsp;Person</span>
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h2 class="title-popular">Gjiri I Roidhes</h2>
+                                <p class="subtitle-popular">Enjoy a 1-hour scenic journey with stops along the way.
+                                    Spend 3.5 hours at Gjiri I Roidhes, a pristine bay known for its crystal-clear
+                                    waters and abundant marine life. Perfect for relaxation and exploration.</p>
+                                <div class="button-container">
+                                    <a href="about.html">
+                                        <button class="btn">Learn More</button>
+                                    </a>
+                                    <a href="contact.html">
+                                        <button class="btn-2">Book Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bb bb20">
+                            <div class="image-container">
+                                <img src="assets/image/0.jpeg" alt="">
+                                <div class="icon-container">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="icon-text">~&nbsp;4&nbsp;Hours</span>
+                                    <i class="fas fa-user"></i>
+                                    <span class="icon-text">Person</span>
+                                    <i class="fas fa-info-circle"></i>
+                                    <span class="icon-text">Info</span>
+                                </div>
+                                <div class="price-overlay">
+                                    <span class="price-label">Price</span>
+                                    <span class="price">300&nbsp;€</span>
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h2 class="title-popular">Ushtari Beach</h2>
+                                <p class="subtitle-popular">Ushtari Beach, situated northeast of Saranda and across from Kakome Beach, is a small beach with large stones and lush greenery. It can be reached by boat or on foot. </p>
+                                <div class="button-container">
+                                    <a href="about.html">
+                                        <button class="btn">Learn More</button>
+                                    </a>
+                                    <a href="contact.html">
+                                        <button class="btn-2">Book Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-6">
+                        <div class="bb">
+                            <div class="image-container">
+                                <img src="assets/image/0.jpeg" alt="">
+                                <div class="icon-container">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="icon-text">~&nbsp;4&nbsp;Hours</span>
+                                    <i class="fas fa-user"></i>
+                                    <span class="icon-text">Person</span>
+                                    <i class="fas fa-info-circle"></i>
+                                    <span class="icon-text">Info</span>
+                                </div>
+                                <div class="price-overlay">
+                                    <span class="price-label">Price</span>
+                                    <span class="price">300&nbsp;€</span>
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h2 class="title-popular">Title</h2>
+                                <p class="subtitle-popular">Subtitle</p>
+                                <div class="button-container">
+                                    <a href="about.html">
+                                        <button class="btn">Learn More</button>
+                                    </a>
+                                    <a href="contact.html">
+                                        <button class="btn-2">Book Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bb bb20">
+                            <div class="image-container">
+                                <img src="assets/image/0.jpeg" alt="">
+                                <div class="icon-container">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="icon-text">~&nbsp;4&nbsp;Hours</span>
+                                    <i class="fas fa-user"></i>
+                                    <span class="icon-text">Person</span>
+                                    <i class="fas fa-info-circle"></i>
+                                    <span class="icon-text">Info</span>
+                                </div>
+                                <div class="price-overlay">
+                                    <span class="price-label">Price</span>
+                                    <span class="price">300&nbsp;€</span>
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h2 class="title-popular">Title</h2>
+                                <p class="subtitle-popular">Subtitle</p>
+                                <div class="button-container">
+                                    <a href="about.html">
+                                        <button class="btn">Learn More</button>
+                                    </a>
+                                    <a href="contact.html">
+                                        <button class="btn-2">Book Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Popular-->
+        <!--Ameneties-->
+        <section style="padding-top: 0px;">
+            <div class="container">
+                <div class="block-text text-center container">
+                    <h3 class="title" style="margin-bottom: 50px;">
+                        WHY CHOOSE US
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="amenity">
+                            <div class="icon-circle">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <h4>Tubing</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity">
+                            <div class="icon-circle">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <h4>Sun Deck</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity">
+                            <div class="icon-circle">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <h4>Guided Tours</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity-1">
+                            <div class="icon-circle">
+                                <i class="fas fa-binoculars"></i>
+                            </div>
+                            <h4>Wildlife Spotting</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity-1">
+                            <div class="icon-circle">
+                                <i class="fas fa-umbrella-beach"></i>
+                            </div>
+                            <h4>Sunset Cruises</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity-1">
+                            <div class="icon-circle">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h4>Photography Services</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity-1">
+                            <div class="icon-circle">
+                                <i class="fas fa-anchor"></i>
+                            </div>
+                            <h4>Safe Anchorage</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="amenity-1">
+                            <div class="icon-circle">
+                                <i class="fas fa-ship"></i>
+                            </div>
+                            <h4>Private Charters</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Ameneties-->
+        <!-- Testimonials -->
+        <section class="testcimonials" style="padding-bottom: 100px;padding-top: 50px;">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-12 text-center">
+                        <div class="about-text">
+                            <h1 class="display-4" style="color: white;">Our Testimonials</h1>
+                        </div>
+                    </div>
+                    <div id="testimonial-carousel" class="client-testimonial-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-content d-flex" style="gap:20px">
+                                <div class="test-text">
+                                    <h5 class="">"Highly recommended for nature lovers! The wildlife spotting tour was
+                                        unforgettable, and the eco-friendly practices demonstrated Esel Boat Trip's
+                                        commitment to sustainability."
+                                    </h5>
+                                    <div>
+                                        <div class="author ">AdeMichael Changlina</div>
+                                        <div class="place ">Tokyo, Japan</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content d-flex" style="gap:20px">
+                                <div class="test-text">
+                                    <h5 class="">"Great family-friendly experience! The sun deck provided panoramic
+                                        views, and the onboard spa services were a delightful treat. Will definitely
+                                        return!"
+                                    </h5>
+                                    <div>
+                                        <div class="author ">Max Müller</div>
+                                        <div class="place ">Berlin, Germany</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content d-flex" style="gap:20px">
+                                <div class="test-text">
+                                    <h5 class="">"Exceeded my expectations! The onboard bar was well-stocked, and the
+                                        photography services captured stunning moments. Can't wait to book again!"
+                                    </h5>
+                                    <div>
+                                        <div class="author ">Sarah Lee</div>
+                                        <div class="place ">Sydney, Australia</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content d-flex" style="gap:20px">
+                                <div class="test-text">
+                                    <h5 class="">"Had a fantastic time with Esel Boat Trip! The guided tour was
+                                        informative, and the wildlife spotting was incredible. Highly recommend!"
+                                    </h5>
+                                    <div>
+                                        <div class="author ">David Martinez</div>
+                                        <div class="place ">Barcelona, Spain</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content d-flex" style="gap:20px">
+                                <div class="test-text">
+                                    <h5 class="">"Absolutely loved my experience with Esel Boat Trip! The crew was
+                                        friendly, the boat was clean, and the sunset cruise was breathtaking."
+                                    </h5>
+                                    <div>
+                                        <div class="author ">Emily Johnson </div>
+                                        <div class="place ">Miami, USA</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonials -->
         <!--Footer-->
         <footer>
             <div class="footer">
@@ -163,49 +499,49 @@
                         <!-- Logo and Description -->
                         <div class="col-lg-3">
                             <div class="footer-widget mb-4">
-                                <h2 class="heading-2 logo" id="footer-logo">
-                                    <a class="navbar-brand" href="index.html">
-                                        <img src="assets/icon/logo.png" width="70px">
-                                    </a>
-                                </h2>
-                                <p> Esel Boat Trip in Ksamil, Albania offers an unforgettable dining experience
-                                    with exclusive seafood dishes and a serene coastal ambiance. Enjoy the finest
-                                    Mediterranean flavors in a welcoming atmosphere.</p>
+                                <h4>Reach Us</h4>
+                                <ul class="conta">
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><a
+                                            href="https://maps.app.goo.gl/5m1CaEXbLmQ2CJXe9" class="text-white m-0 p-0"
+                                            style="text-decoration: none;">Naim Frashëri Promenade, Saranda</a></li>
+                                    <li><i class="fas fa-mobile" style="color:white;"></i><a href="tel:+355692062486"
+                                            class="text-white m-0 p-0" style="text-decoration: none;">+355 (0)
+                                            692062486</a></li>
+                                    <li><i class="fas fa-phone" style="color:white;"></i><a href="tel:+447838602527"
+                                            class="text-white m-0 p-0" style="text-decoration: none;">+44 7838
+                                            602527</a></li>
+                                    <li><i class="fas fa-envelope" style="color: white;"></i><a
+                                            href="mailto:esel.boat.sr@gmail.com" class="text-white m-0 p-0"
+                                            style="text-decoration: none;">esel.boat.sr@gmail.com</a></li>
+                                </ul>
+                                <div class="social-icons">
+                                    <a href="https://www.instagram.com/eselboattrip?igsh=MTl2MzgzZmVuNWU4eQ=="
+                                        target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <!-- Contact Information -->
-                        <div class="col-lg-3">
-                            <h4>Contact Us</h4>
-                            <ul class="conta">
-                                <li><i class="fa fa-map-marker" aria-hidden="true"></i><a
-                                        href="https://maps.app.goo.gl/PuqPNXSYTNK6y2uJ8" class="text-white m-0 p-0"
-                                        style="text-decoration: none;">Road 40 Shenjtoret, Ksamil</a>
-                                </li>
-                                <li><i class="fas fa-phone" style="color:white;"></i><a href="tel:+355692996472"
-                                        class="text-white m-0 p-0" style="text-decoration: none;">+355 (0) 692996472</a>
-                                </li>
-                                <li><i class="fas fa-envelope" style="color: white;"></i><a
-                                        href="mailto:eljofishrestaurant@gmail.com" class="text-white m-0 p-0"
-                                        style="text-decoration: none;">eljofishrestaurant@gmail.com</a></li>
-                            </ul>
-                        </div>
                         <!-- Useful Links -->
-                        <div class="col-lg-3">
-                            <h4>Useful Links</h4>
-                            <ul class="link_menu">
-                                <li class="mb-2 active"><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                                <li class="mb-2"><a href="trips.html"><i class="fas fa-utensils"></i> Guides</a></li>
-                                <li class="mb-2"><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
-                                <li class="mb-2"><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a>
-                                </li>
-                                <li class=""><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
-                            </ul>
+                        <div class="col-lg-5 text-center">
+                            <div class="square-container">
+                                <div class="square-item top"><a href="trips.html" class="hover-link">Guides</a></div>
+                                <div class="square-item right"><a href="gallery.html" class="hover-link">Gallery</a>
+                                </div>
+                                <div class="square-item bottom"><a href="aboutus.html" class="hover-link">About Us</a>
+                                </div>
+                                <div class="square-item left"><a href="contact.html" class="hover-link">Contact</a>
+                                </div>
+                                <div class="square-item center">
+                                    <img src="assets/icon/logo-white.png" alt="Logo" class="img-fluid logo"
+                                        width="120px" height="110px">
+                                    <div class="hover-text"><a href="index.html" class="hover-link">Home</a></div>
+                                </div>
+                            </div>
                         </div>
                         <!-- Location Map -->
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <h4>Location</h4>
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1531.0470724357456!2d20.013886538532358!3d39.87212905141887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDUyJzE5LjciTiAyMMKwMDAnNTQuNiJF!5e0!3m2!1sen!2s!4v1716903981518!5m2!1sen!2s"
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3062.024081457619!2d20.006675074935075!3d39.87369848851282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDUyJzI1LjMiTiAyMMKwMDAnMzMuMyJF!5e0!3m2!1sen!2s!4v1717146444832!5m2!1sen!2s"
                                 width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
@@ -213,7 +549,7 @@
                 </div>
                 <!-- Copyright -->
                 <div class="copyright">
-                    <div class="text-center text-white p-2" style="background-color: black;">
+                    <div class="copyright-text">
                         Copyright ©
                         <script>document.write(new Date().getFullYear());</script> Esel Boat Trip | Powered <a
                             href="https://intermedia.al/"><img src="assets/icon/intermediaLogo1.png" class="img-fluid"
@@ -239,6 +575,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!--My Script-->
     <script src="main.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true, // Enable loop
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '"></span>';
+                },
+            },
+            autoplay: {
+                delay: 6000, // 6 seconds
+                disableOnInteraction: false, // Keep autoplay running even after user interaction
+            },
+        });  
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#testimonial-carousel').owlCarousel({
+                items: 3,        // Set the number of items to display at a time
+                loop: true,      // Enable infinite looping
+                autoplay: true,  // Enable autoplay
+                margin: 20,      // Set the margin between items
+                dots: true,      // Enable indicators (dots)
+                responsive: {
+                    0: {
+                        items: 1 // Display 1 item on screens smaller than 768px
+                    },
+                    768: {
+                        items: 2 // Display 2 items on screens between 768px and 992px
+                    },
+                    992: {
+                        items: 3 // Display 3 items on screens larger than 992px
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
